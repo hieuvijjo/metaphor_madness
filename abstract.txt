@@ -33,3 +33,9 @@ worrisome
 understanding
 laziness
 sincerity
+imagination
+humility
+faith
+courage
+serenity
+curiosity
