@@ -29,6 +29,8 @@ tree
 iPhone
 cake
 table
+pillow
+bed
 chair
 autumn
 winter
@@ -39,6 +41,7 @@ ground
 earth
 fire
 water
+paper tissue
 wind
 sun
 ocean
