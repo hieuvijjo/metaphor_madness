@@ -37,7 +37,13 @@ with open(args.abstract) as file:
 
 
 if len(concrete) > 0 and len(abstract) > 0:
+    book = {}
+    max_length = 0
     for number in range(1, args.number+1):
         random_concrete = random.randint(0, len(concrete) - 1)
         random_abstract = random.randint(0, len(abstract) - 1)
-        print(f'{concrete[random_concrete]:<11} {abstract[random_abstract]}')
+        book[concrete[random_concrete]]=abstract[random_abstract]
+        if len(concrete[random_concrete]) > max_length:
+            max_length = len(concrete[random_concrete])
+    for key, value in book.items():
+        print(f'{key.ljust(max_length)}   {value}')
