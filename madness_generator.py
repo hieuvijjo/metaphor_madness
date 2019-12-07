@@ -6,18 +6,18 @@ import random
 import sys
 from os.path import join
 
-concrete_txt = '/Users/hieucao/projects/metaphor_maddness/concrete.txt'
-abstract_txt = '/Users/hieucao/projects/metaphor_maddness/abstract.txt'
+CONCRETE_TXT = '/Users/hieucao/projects/metaphor_maddness/concrete.txt'
+ABSTRACT_TXT = '/Users/hieucao/projects/metaphor_maddness/abstract.txt'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-c',
                     '--concrete',
-                    default=concrete_txt,
+                    default=CONCRETE_TXT,
                     nargs='?',
                     help='path to text of concrete')
 parser.add_argument('-a',
                     '--abstract',
-                    default=abstract_txt,
+                    default=ABSTRACT_TXT,
                     nargs='?',
                     help='path to text of abstract')
 args = parser.parse_args()

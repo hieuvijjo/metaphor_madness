@@ -4,10 +4,13 @@ light bulb
 birdseed
 rowboat
 soccer
+tennis ball
 books
 school
 piece of chalk
 sleep
+window
+door
 child
 pen
 chocolate
@@ -27,6 +30,7 @@ earth
 fire
 water
 air
+wind
 sun
 ocean
 falling leaves
