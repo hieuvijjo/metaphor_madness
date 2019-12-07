@@ -20,6 +20,13 @@ parser.add_argument('-a',
                     default=ABSTRACT_TXT,
                     nargs='?',
                     help='path to text of abstract')
+parser.add_argument('-n',
+                    '--number',
+                    const='1',
+                    type=int,
+                    nargs='?',
+                    help='path to text of abstract')
+
 args = parser.parse_args()
 
 with open(args.concrete) as file:
@@ -28,8 +35,9 @@ with open(args.concrete) as file:
 with open(args.abstract) as file:
     abstract = file.read().splitlines()
 
-random_concrete = random.randint(0, len(concrete) - 1)
-random_abstract = random.randint(0, len(abstract) - 1)
 
 if len(concrete) > 0 and len(abstract) > 0:
-    print(f'{concrete[random_concrete]} {" "*7} {abstract[random_abstract]}')
+    for number in range(1, args.number+1):
+        random_concrete = random.randint(0, len(concrete) - 1)
+        random_abstract = random.randint(0, len(abstract) - 1)
+        print(f'{concrete[random_concrete]:<11} {abstract[random_abstract]}')

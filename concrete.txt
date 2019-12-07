@@ -2,6 +2,7 @@ hammer
 piano
 light bulb
 birdseed
+blank paper
 rowboat
 soccer
 tennis ball
@@ -9,9 +10,18 @@ books
 school
 piece of chalk
 sleep
+high heels
 window
 door
+thumb
+hand
+foot
+shoes
 child
+star
+sky
+pencil
+fart
 pen
 chocolate
 ice cream
@@ -29,7 +39,6 @@ ground
 earth
 fire
 water
-air
 wind
 sun
 ocean
