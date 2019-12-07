@@ -3,6 +3,7 @@
 Clone/download the package.
 Open `madness_generator.py` and modify paths to `abstract.txt` and `concrete.txt`.
 On terminal, change working directory to the reposity and run:
+
 ```
 python3 madness_generator.py -h
 ```
