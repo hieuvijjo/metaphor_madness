@@ -22,7 +22,7 @@ parser.add_argument('-a',
                     help='path to text of abstract')
 parser.add_argument('-n',
                     '--number',
-                    const='1',
+                    default='1',
                     type=int,
                     nargs='?',
                     help='path to text of abstract')

@@ -41,3 +41,6 @@ faith
 courage
 serenity
 curiosity
+writing
+thinking
+programming
