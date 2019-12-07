@@ -42,6 +42,7 @@ water
 wind
 sun
 ocean
+computer screen
 falling leaves
 dust
 trash
