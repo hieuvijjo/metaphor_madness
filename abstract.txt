@@ -20,6 +20,8 @@ anxiety
 patience
 adulthood
 childhood
+sorrow
+happiness
 adolescence
 youth
 old age

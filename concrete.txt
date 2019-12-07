@@ -18,7 +18,15 @@ cake
 table
 chair
 autumn
+winter
+spring
 summer
+cloud
+ground
+earth
+fire
+water
+air
 sun
 ocean
 falling leaves
